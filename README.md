@@ -59,26 +59,31 @@ pytest
 
 physician-notetaker/
 │
-├── src/
-│   ├── preprocessing.py
-│   ├── summarizer.py
-│   ├── sentiment.py
-│   ├── soap_mapper.py
-│   ├── run_pipeline.py
+├── data/ # Sample input transcript(s)
+│ └── sample_transcript.txt
 │
-├── data/
-│   └── sample_transcript.txt
+├── notebooks/ # Jupyter notebooks for demos or experiments
+│ └── demo_notebook.ipynb
 │
-├── outputs/
-│   ├── sentiment.json
-│   ├── soap.json
-│   └── summary.json
+├── outputs/ # NLP pipeline results
+│ ├── summary.json
+│ ├── sentiment.json
+│ └── soap.json
 │
-├── tests/
-│   └── test_pipeline.py
+├── src/ # Source code modules
+│ ├── init.py
+│ ├── preprocessing.py # Cleans and splits dialogue text
+│ ├── summarizer.py # Generates medical summaries
+│ ├── sentiment.py # Detects patient sentiment & intent
+│ ├── soap_mapper.py # Maps extracted data to SOAP structure
+│ └── run_pipeline.py # Main entry point for running the pipeline
 │
-├── requirements.txt
-└── README.md
+├── tests/ # Unit tests for code validation
+│ └── test_pipeline.py
+│
+├── requirements.txt # All required Python packages
+├── README.md # Project documentation
+└── run_debug.py # Debug/testing entry point
 
 
 
