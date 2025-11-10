@@ -57,33 +57,9 @@ pytest
 
 ## Folder Structure
 
-physician-notetaker/
-│
-├── data/ # Sample input transcript(s)
-│ └── sample_transcript.txt
-│
-├── notebooks/ # Jupyter notebooks for demos or experiments
-│ └── demo_notebook.ipynb
-│
-├── outputs/ # NLP pipeline results
-│ ├── summary.json
-│ ├── sentiment.json
-│ └── soap.json
-│
-├── src/ # Source code modules
-│ ├── init.py
-│ ├── preprocessing.py # Cleans and splits dialogue text
-│ ├── summarizer.py # Generates medical summaries
-│ ├── sentiment.py # Detects patient sentiment & intent
-│ ├── soap_mapper.py # Maps extracted data to SOAP structure
-│ └── run_pipeline.py # Main entry point for running the pipeline
-│
-├── tests/ # Unit tests for code validation
-│ └── test_pipeline.py
-│
-├── requirements.txt # All required Python packages
-├── README.md # Project documentation
-└── run_debug.py # Debug/testing entry point
+
+
+<img width="472" height="704" alt="Screenshot 2025-11-10 231323" src="https://github.com/user-attachments/assets/4a33ac25-1d53-4d8d-8a06-bb7c0dc6bf7b" />
 
 
 ##  Common Questions and Answers
