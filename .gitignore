@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+physician-notetaker.zip
+*.zip
+.vscode/
+.idea/
