@@ -1,0 +1,30 @@
+{
+  "overall_sentiment": "Reassured",
+  "overall_intent": "Reporting symptoms",
+  "per_utterance": [
+    {
+      "speaker": "patient",
+      "text": "I had a car accident. My neck and back hurt a lot for four weeks.",
+      "sentiment": "Neutral",
+      "intent": "Reporting symptoms"
+    },
+    {
+      "speaker": "doctor",
+      "text": "Did you receive treatment?",
+      "sentiment": "Neutral",
+      "intent": "Other"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, I had ten physiotherapy sessions, and now I only have occasional back pain.",
+      "sentiment": "Reassured",
+      "intent": "Reporting symptoms"
+    },
+    {
+      "speaker": "doctor",
+      "text": "Everything looks good. Given your progress, I’d expect you to make a full recovery within six months of the accident.",
+      "sentiment": "Reassured",
+      "intent": "Reporting symptoms"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Subjective": {
+    "Chief_Complaint": "Neck and back pain",
+    "History_of_Present_Illness": "I had a car accident. My neck and back hurt a lot for four weeks. Yes, I had ten physiotherapy sessions, and now I only have occasional back pain."
+  },
+  "Objective": {
+    "Physical_Exam": "Full range of motion in cervical and lumbar spine, no tenderness.",
+    "Observations": "Patient appears in normal health, normal gait."
+  },
+  "Assessment": {
+    "Diagnosis": "Whiplash injury and lower back strain",
+    "Severity": "Mild, improving"
+  },
+  "Plan": {
+    "Treatment": [
+      "Physiotherapy for pain relief",
+      "Painkillers as required",
+      "Return if symptoms worsen"
+    ],
+    "Follow_Up": "Full recovery expected within six months."
+  }
+}

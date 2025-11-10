@@ -1,0 +1,14 @@
+{
+  "Patient_Name": "Janet Jones",
+  "Symptoms": [
+    "Neck pain",
+    "Back pain"
+  ],
+  "Diagnosis": "Whiplash injury",
+  "Treatment": [
+    "10 physiotherapy sessions",
+    "Painkillers"
+  ],
+  "Current_Status": "Occasional backache",
+  "Prognosis": "Full recovery expected within six months"
+}
