@@ -86,7 +86,6 @@ physician-notetaker/
 └── run_debug.py # Debug/testing entry point
 
 
-
 ##  Common Questions and Answers
 
 ### 1. How would you handle ambiguous or missing medical data in the transcript?
